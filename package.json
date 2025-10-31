@@ -1,0 +1,21 @@
+{
+  "name": "posmotri_v_okno",
+  "version": "1.0.0",
+  "description": "https://github.com/ilkaxd/posmotri_v_okno",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'Привет!'",
+    "check": "prettier --check './**/*.{html,css,js}'",
+    "format": "prettier --write './**/*.{html,css,js}'",
+    "lint": "stylelint '**/*.css'",
+    "lintfix": "stylelint '**/*.css' --fix",
+    "checkAll": "npm run check && npm run lint",
+    "fixAll": "npm run format && npm run lintfix"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prettier": "^3.0.2",
+    "stylelint": "^15.10.3"
+  }
+}
